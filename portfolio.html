@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maycon</title>
+</head>
+
+<body>
+    <header>
+        <h2>Maycon Caetano</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projeto">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem Vindo Ao Portfolio</h2>
+            <p>A seguir Você verá mais Sobre meu portfolio</p>
+            <div class="home-img">
+                <img src="https://images.unsplash.com/photo-1758351754305-fe00523aaefe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8"
+                    alt="image">
+            </div>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou um jogador profissional de <strong>sinuca</strong>, atuante no ramo <strong>imobiliário</strong>
+                pois só o <strong>amor</strong> constrói.</p>
+
+        </section>
+        <section id="projetos">
+            <div class="projetos">
+                <article class="projeto">
+                    <h2>Castelo de Madeira</h2>
+                    <p>Um Castelo Feito de Madeira para A tropa morar no nosso survival</p>
+                    <a href="https://www.youtube.com/watch?v=Rj5zGNzoDZ8">Projeto</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShCStxwcxMOQ2DP2tIYX3JmxwIFcHMunNsTQ&s"
+                        alt="image">
+                </article>
+                <article class="projeto">
+                    <h2>Farm de Porco</h2>
+                    <p>Uma Farm de Porco 100% Automatica</p>
+                    <a href="https://www.youtube.com/watch?v=KsKJJtZ2MXE">Projeto</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmI3-wNYYGf1GrFQSaSd1kPhxJhoY7F3eTNw&s"
+                        alt="image">
+                </article>
+                <article class="projeto">
+                    <h2>Máquina Voadora</h2>
+                    <p>Uma Maquina Voadora,feita utilizando blocos de slimes e observadores</p>
+                    <a href="https://www.youtube.com/watch?v=MY5MoQGlees">Projeto</a>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRujud0TpvD496JfmKooFJ2M-6ZOYtenAXGVQ&s"
+                        alt="image">
+                </article>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h3>Habilidades do Profissional</h3>
+            <ol>
+                <li>Programaçâo Web</li>
+                <li>Design Gráfico</li>
+                <li>Análise de Dados</li>
+            </ol>
+            <h3>O que Desejo Aprender</h3>
+            <ul>
+                <li>Programação Back-end</li>
+                <li>Tocar Guitarra</li>
+                <li>Pilotar um Trator</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <form action="contato.php" method="get">
+                <label for="contato">Seu Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu Nome" required><br><br>
+                <label for="contato">Email</label>
+                <input type="email" name="email" id="email" placeholder="Seu Email" required><br><br>
+                <label for="contato">Motivo Do Contato</label><br><br>
+                <input type="radio" name="radio" id="radio">Problema com internet <br><br>
+                <input type="radio" name="radio" id="radio">Problema com entrega <br><br>
+                <input type="radio" name="radio" id="radio">Problema com demanda <br><br>
+                <label for="contato">Mensagem</label><br><br>
+                <input type="text" name="mensagem" id="mensagem" placeholder="Sua Mensagem" required><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer class="footer">
+            <p>Maycon Caetano Ferreira</p>
+            <p>Bacharelado em Sistemas de Informação</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
